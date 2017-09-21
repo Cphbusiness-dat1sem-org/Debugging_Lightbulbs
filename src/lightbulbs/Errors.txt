@@ -1,0 +1,14 @@
+Main.java
+    l.31 - Supposed to print mostPleasant, but prints mostEfficient
+    l.40 - Supposed to call getEnergy(), but calls getWarmth()
+    l.45 - Missing {}
+    l.55 - Reads public attribute, should call getter method
+    l.57 - Supposed to compare with >, but uses <
+
+Bulb.java
+    l.06 - Attributes should be private
+    l.09 - Parameters is out of order should be: brand, model, type but is brand, type, model.
+    l.11 - = can not be reversed
+    l.22 - getBrightness() returns energy
+    l.28 - equals accepts Bulb, but should accept Object - Bad Override
+    l.50 - prints life instead of warmth
