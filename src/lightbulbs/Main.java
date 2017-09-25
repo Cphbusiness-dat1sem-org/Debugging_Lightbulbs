@@ -39,7 +39,7 @@ public class Main {
             int brightness = b.getBrightness();
             int energy = b.getWarmth();
             int life = b.getLife();
-            double efficiency = brightness / energy * (life / 1000);
+            double efficiency = (double)brightness / energy * (life / 1000);
             if(efficiency > maxEfficiency)
                 maxEfficiency = efficiency;
                 mostEfficient = b;
