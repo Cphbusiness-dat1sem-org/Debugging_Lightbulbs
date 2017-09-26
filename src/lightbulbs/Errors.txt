@@ -1,5 +1,5 @@
 Main.java
-    l.31 - Supposed to print mostPleasant, but prints mostEfficient
+    l.31 - Supposed to print mostPleasant, but prints mostEfficient (
     l.40 - Supposed to call getEnergy(), but calls getWarmth()
     l.45 - Missing {}
     l.55 - Reads public attribute, should call getter method
