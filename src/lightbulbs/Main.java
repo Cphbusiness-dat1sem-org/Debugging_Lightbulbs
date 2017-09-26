@@ -53,7 +53,7 @@ public class Main {
         for(Bulb b : l){
             int warmth = b.getWarmth();
             int brightness = b.brightness;
-            double pleasingScore = warmth / brightness;
+            double pleasingScore = (double)warmth / brightness;
             if(pleasingScore < maxPleasingScore){
                 maxPleasingScore = pleasingScore;
                 mostPleasing = b;
