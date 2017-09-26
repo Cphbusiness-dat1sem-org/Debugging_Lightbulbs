@@ -11,4 +11,5 @@ Bulb.java
     l.11 - = can not be reversed
     l.22 - getBrightness() returns energy
     l.28 - equals accepts Bulb, but should accept Object - Bad Override
+    l.45 - equals compares brightness and model, but should use brand and model
     l.50 - prints life instead of warmth
