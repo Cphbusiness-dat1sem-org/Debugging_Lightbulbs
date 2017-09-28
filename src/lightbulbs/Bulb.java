@@ -6,13 +6,7 @@ public class Bulb {
     String brand, model, type;
     int brightness, energy, life, warmth;
 
-    public Bulb(String brand, 
-                String type, 
-                String model, 
-                int brightness, 
-                int energy, 
-                int life, 
-                int warmth) {
+    public Bulb(String brand, String type, String model, int brightness, int energy, int life, int warmth) {
         this.brand = brand;
         model = this.model;
         this.type = type;
